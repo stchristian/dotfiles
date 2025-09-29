@@ -103,5 +103,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/macbookpro/.lmstudio/bin"
+# End of LM Studio CLI section
+
 alias python=python3
 alias pip=pip3
+
+# Keybindings 
+bindkey '^U' backward-kill-line
